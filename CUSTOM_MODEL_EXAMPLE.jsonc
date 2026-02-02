@@ -1,0 +1,32 @@
+{
+  "provider": {
+    "openwebui": {
+      "api": "http://192.168.1.233:3000/api",
+      "apiKey": "your-openwebui-api-key",
+      "models": {
+        "my-trained-model": {
+          "id": "my-trained-model",
+          "name": "My Trained Model",
+          "family": "custom",
+          "context": 128000,
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true,
+          "temperature": true,
+          "cost": {
+            "input": 0,
+            "output": 0
+          },
+          "limit": {
+            "context": 128000,
+            "output": 4096
+          },
+          "modalities": {
+            "input": ["text"],
+            "output": ["text"]
+          }
+        }
+      }
+    }
+  }
+}

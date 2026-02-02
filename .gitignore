@@ -1,0 +1,32 @@
+.DS_Store
+node_modules
+.worktrees
+.sst
+.env
+.idea
+.vscode
+*~
+playground
+tmp
+dist
+ts-dist
+.turbo
+**/.serena
+.serena/
+/result
+refs
+Session.vim
+codepwn.json
+a.out
+target
+.scripts
+.direnv/
+
+# Local dev files
+codepwn-dev
+logs/
+*.bun-build
+
+# Codepwn specific
+.codepwn/
+codepwn.jsonc
